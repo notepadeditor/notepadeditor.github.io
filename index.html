@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notepad Editor Online — Free Text Editor | NotepadEditor.github.io</title>
+  <meta name="description" content="Free online notepad editor with rich text formatting, word count, find & replace, auto-save, and download. Fast, distraction-free text editor — no login required.">
+  <meta name="keywords" content="notepad editor, online notepad, text editor online, notepad online free, simple text editor, notepad editor online, free notepad, write online, online text editor">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://notepadeditor.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://notepadeditor.github.io/">
+  <meta property="og:title" content="Notepad Editor Online — Free Text Editor">
+  <meta property="og:description" content="Fast, free online notepad editor with word count, find & replace, auto-save, and download. No sign-up needed.">
+  <meta property="og:image" content="https://notepadeditor.github.io/og-image.png">
+  <meta property="og:site_name" content="NotepadEditor">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Notepad Editor Online — Free Text Editor">
+  <meta name="twitter:description" content="Fast, free online notepad editor with word count, find & replace, auto-save, and download. No sign-up needed.">
+  <meta name="twitter:image" content="https://notepadeditor.github.io/og-image.png">
+
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DH0NXE4ME3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DH0NXE4ME3');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9759808041159779" crossorigin="anonymous"></script>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Notepad Editor Online",
+    "url": "https://notepadeditor.github.io/",
+    "description": "A free online notepad and text editor with rich formatting, word count, find and replace, auto-save, and TXT download. No login required.",
+    "applicationCategory": "ProductivityApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Word Count",
+      "Character Count",
+      "Find and Replace",
+      "Auto Save",
+      "Download as TXT",
+      "Copy to Clipboard",
+      "Text Formatting",
+      "Line Numbers",
+      "Dark Mode Toggle",
+      "Distraction-Free Mode"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "NotepadEditor"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is the Notepad Editor completely free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Notepad Editor Online is 100% free to use with no sign-up or login required. All features including auto-save, download, and find & replace are available at no cost."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Notepad Editor save my text automatically?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the editor auto-saves your text to your browser's local storage every few seconds. Your notes will still be there if you accidentally close the tab, as long as you return on the same browser."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I download my text file from the online notepad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Click the Download button in the editor to save your text as a .txt file to your device at any time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the online text editor work on mobile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Notepad Editor is fully responsive and works on smartphones and tablets. The toolbar and editor adapt to smaller screens for a comfortable writing experience."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data private when using this online notepad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your text is stored only in your own browser's local storage — it never leaves your device or gets sent to any server. Your notes remain completely private."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the maximum text length I can type?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There is no hard character limit imposed by the editor. You can type as much text as your browser's local storage allows, which is typically several megabytes — more than enough for any document."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://notepadeditor.github.io/"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <div id="header-placeholder"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg-lines" aria-hidden="true"></div>
+    <div class="hero-margin-line" aria-hidden="true"></div>
+    <div class="hero-inner container">
+      <div class="hero-copy">
+        <span class="hero-label">Free Online Notepad Editor</span>
+        <h1>Write Freely.<br><span>Think Clearly.</span></h1>
+        <p class="hero-desc">A fast, distraction-free <strong>online notepad editor</strong> that works right in your browser. No login, no install — just open and write. Your notes auto-save so nothing is ever lost.</p>
+        <div class="hero-actions">
+          <a href="#editor" class="btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+            Start Writing Now
+          </a>
+          <a href="#features" class="btn-secondary">See Features</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-lbl">Free forever</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">0</div>
+            <div class="stat-lbl">Sign-ups needed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">∞</div>
+            <div class="stat-lbl">Characters allowed</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="notebook-preview">
+          <div class="nb-chrome">
+            <div class="nb-dots">
+              <span class="nb-dot r"></span>
+              <span class="nb-dot y"></span>
+              <span class="nb-dot g"></span>
+            </div>
+            <span class="nb-title">notepadeditor.github.io</span>
+          </div>
+          <div class="nb-body">
+            <div class="nb-margin"></div>
+            <div class="nb-text-line dim">// Meeting Notes — Project Kickoff</div>
+            <div class="nb-text-line"></div>
+            <div class="nb-text-line typed">Attendees: Sarah, James, Priya, Tom</div>
+            <div class="nb-text-line typed">Date: Today</div>
+            <div class="nb-text-line"></div>
+            <div class="nb-text-line dim">Action items:</div>
+            <div class="nb-text-line typed">→ Finalize design mockups by Friday</div>
+            <div class="nb-text-line typed">→ Review API documentation<span class="nb-cursor"></span></div>
+            <div class="nb-text-line"></div>
+            <div class="nb-text-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint container">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== EDITOR SECTION ===== -->
+  <section id="editor" aria-label="Notepad Editor">
+    <div class="container">
+      <div class="editor-section-head">
+        <span class="section-eyebrow">Online Notepad</span>
+        <h2>Your Free Text Editor</h2>
+        <p class="section-sub">Everything auto-saves to your browser. Use the toolbar to format text, search your document, or download your notes anytime.</p>
+      </div>
+      <div class="editor-wrapper">
+        <!-- Toolbar -->
+        <div class="editor-toolbar" role="toolbar" aria-label="Formatting toolbar">
+          <div class="toolbar-group">
+            <select class="tb-select" id="font-size-select" title="Font Size" aria-label="Font size">
+              <option value="12">12px</option>
+              <option value="14" selected>14px</option>
+              <option value="16">16px</option>
+              <option value="18">18px</option>
+              <option value="20">20px</option>
+              <option value="24">24px</option>
+            </select>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-undo" title="Undo (Ctrl+Z)" aria-label="Undo">↩</button>
+            <button class="tb-btn" id="btn-redo" title="Redo (Ctrl+Y)" aria-label="Redo">↪</button>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-clear" title="Clear editor" aria-label="Clear all text">🗑</button>
+            <button class="tb-btn" id="btn-copy" title="Copy all text (Ctrl+Shift+C)" aria-label="Copy all">⧉</button>
+            <button class="tb-btn" id="btn-paste-clean" title="Paste & strip formatting" aria-label="Paste plain text">⊕</button>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-upper" title="UPPERCASE selection" aria-label="Uppercase">AA</button>
+            <button class="tb-btn" id="btn-lower" title="lowercase selection" aria-label="Lowercase" style="font-size:0.75rem;">aa</button>
+            <button class="tb-btn" id="btn-title" title="Title Case selection" aria-label="Title case" style="font-size:0.8rem;">Aa</button>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-find" title="Find & Replace (Ctrl+H)" aria-label="Find and replace">⌕</button>
+          </div>
+          <div class="toolbar-group">
+            <select class="tb-select" id="wrap-select" title="Line wrap" aria-label="Line wrap">
+              <option value="soft">Wrap On</option>
+              <option value="off">Wrap Off</option>
+            </select>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-dark" title="Toggle dark mode" aria-label="Toggle dark mode">◑</button>
+            <button class="tb-btn" id="btn-focus" title="Distraction-free mode (F11)" aria-label="Focus mode">⤢</button>
+          </div>
+          <div class="toolbar-group">
+            <button class="tb-btn" id="btn-print" title="Print document" aria-label="Print">🖨</button>
+          </div>
+        </div>
+
+        <!-- Find & Replace -->
+        <div class="find-replace-panel" id="find-replace-panel" role="search" aria-label="Find and Replace">
+          <input type="text" class="fr-input" id="find-input" placeholder="Find…" aria-label="Search text">
+          <input type="text" class="fr-input" id="replace-input" placeholder="Replace with…" aria-label="Replace with">
+          <button class="btn-secondary" id="btn-replace-one" style="height:32px;padding:0 12px;font-size:0.82rem;">Replace</button>
+          <button class="btn-secondary" id="btn-replace-all" style="height:32px;padding:0 12px;font-size:0.82rem;">Replace All</button>
+          <span class="fr-count" id="fr-count" aria-live="polite"></span>
+          <button class="tb-btn" id="btn-close-fr" title="Close find panel" aria-label="Close find panel" style="margin-left:auto;">✕</button>
+        </div>
+
+        <!-- Editor Body -->
+        <div class="editor-main">
+          <div class="editor-textarea-wrap">
+            <div class="line-numbers" id="line-numbers" aria-hidden="true">1</div>
+            <textarea
+              id="main-editor"
+              spellcheck="true"
+              autocorrect="on"
+              autocapitalize="sentences"
+              placeholder="Start typing your notes here… Your text auto-saves in this browser."
+              aria-label="Text editor area"
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="editor-statusbar" role="status" aria-live="polite">
+          <span class="status-item">Words: <strong id="stat-words">0</strong></span>
+          <span class="status-item">Chars: <strong id="stat-chars">0</strong></span>
+          <span class="status-item">Lines: <strong id="stat-lines">1</strong></span>
+          <span class="status-item">Sentences: <strong id="stat-sentences">0</strong></span>
+          <span class="status-item">Reading time: <strong id="stat-read">0 sec</strong></span>
+          <span class="status-item" style="margin-left:auto;" id="save-status">💾 Auto-saved</span>
+        </div>
+      </div>
+
+      <!-- Download / Action buttons -->
+      <div class="editor-actions-bar">
+        <div class="action-group">
+          <button class="btn-primary" id="btn-download-txt">
+            ⬇ Download .TXT
+          </button>
+          <button class="btn-secondary" id="btn-download-md">
+            ⬇ Download .MD
+          </button>
+        </div>
+        <button class="btn-secondary" id="btn-new-doc" style="margin-left:auto;">
+          + New Document
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AD SLOT ===== -->
+  <div style="text-align:center;padding:24px 0;background:var(--paper);">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9759808041159779" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section id="features" aria-label="Features">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow reveal">Everything you need</span>
+        <h2 class="section-head reveal">A Notepad Editor Built for Real Work</h2>
+        <p class="section-sub reveal">No bloat. No subscriptions. Just a powerful, lightweight online text editor that respects your time — and your privacy.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">💾</div>
+          <h3>Auto-Save to Browser</h3>
+          <p>Your text saves automatically every few seconds using your browser's local storage. Close the tab, come back later — your work is still there, private on your device.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">🔍</div>
+          <h3>Find & Replace</h3>
+          <p>Instantly search for any word or phrase in your document and replace it — one at a time or all at once. A must-have for editing and proofreading long texts.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon">📊</div>
+          <h3>Live Word & Character Count</h3>
+          <p>The status bar updates in real time, showing you word count, character count, line count, sentence count, and estimated reading time as you type.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">⬇</div>
+          <h3>Download as TXT or MD</h3>
+          <p>Export your notes as a plain .txt file or a Markdown .md file with one click. Your filename is auto-generated from the first line of your text.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">🔡</div>
+          <h3>Case Conversion</h3>
+          <p>Select any text and instantly convert it to UPPERCASE, lowercase, or Title Case using the toolbar buttons. Great for fixing imported text or writing headings.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon">🌙</div>
+          <h3>Dark Mode</h3>
+          <p>Switch between the cream-white educational theme and a gentle dark mode with a single click. Perfect for late-night writing sessions or low-light environments.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">📱</div>
+          <h3>Mobile-Ready</h3>
+          <p>The editor works beautifully on phones and tablets. The responsive design adapts to every screen size so you can write anywhere, on any device.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">🎯</div>
+          <h3>Focus / Distraction-Free Mode</h3>
+          <p>Enter full-screen focus mode to eliminate all distractions and give your full attention to writing. Press Escape or the button again to return.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon">🔒</div>
+          <h3>100% Private</h3>
+          <p>Your text never leaves your device. No servers, no databases, no accounts. Everything stays local — making this the most private notepad editor online.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW TO USE ===== -->
+  <section id="how-to-use" aria-label="How to use the notepad editor">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow reveal">Simple by design</span>
+        <h2 class="section-head reveal">How to Use the Online Notepad</h2>
+        <p class="section-sub reveal">Get from blank page to saved notes in seconds. Here is how the editor works, step by step.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card reveal reveal-delay-1">
+          <div class="step-num">1</div>
+          <h3>Open the Editor</h3>
+          <p>Click "Start Writing Now" or scroll up to the editor. No login, no account creation — the editor loads instantly in your browser.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-2">
+          <div class="step-num">2</div>
+          <h3>Type or Paste Your Text</h3>
+          <p>Click inside the editor and start typing. You can also paste text from anywhere. Use the toolbar to change font size, convert case, or search your content.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-3">
+          <div class="step-num">3</div>
+          <h3>Text Saves Automatically</h3>
+          <p>Watch the status bar — it confirms auto-save every few seconds. Your notes are stored privately in your browser's local storage, no action required.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-3">
+          <div class="step-num">4</div>
+          <h3>Download or Copy</h3>
+          <p>When you're done, click "Download .TXT" to save a file to your device, or use "Copy All" to grab the text to the clipboard. It's that simple.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== USE CASES ===== -->
+  <section id="use-cases" aria-label="Who uses this notepad editor">
+    <div class="container">
+      <div>
+        <span class="section-eyebrow reveal">For everyone</span>
+        <h2 class="section-head reveal">Who Uses Notepad Editor Online?</h2>
+        <p class="section-sub reveal">From students jotting down ideas to developers drafting quick scripts, the free online text editor fits dozens of everyday writing scenarios.</p>
+      </div>
+      <div class="use-cases-grid">
+        <div class="use-case-card reveal">
+          <div class="uc-icon">🎓</div>
+          <div class="uc-body">
+            <h3>Students & Note-Takers</h3>
+            <p>Capture lecture notes, brainstorm essay ideas, or draft assignment outlines directly in the browser without opening a heavy word processor. The word counter helps track essay length in real time.</p>
+          </div>
+        </div>
+        <div class="use-case-card reveal">
+          <div class="uc-icon">💻</div>
+          <div class="uc-body">
+            <h3>Developers & Coders</h3>
+            <p>Use the monospace font editor to jot down code snippets, write quick bash notes, or draft README files. The plain-text export keeps formatting clean.</p>
+          </div>
+        </div>
+        <div class="use-case-card reveal">
+          <div class="uc-icon">✍️</div>
+          <div class="uc-body">
+            <h3>Writers & Bloggers</h3>
+            <p>Draft articles, blog posts, or story chapters in a distraction-free environment. Use focus mode to block everything out and let the words flow without interruption.</p>
+          </div>
+        </div>
+        <div class="use-case-card reveal">
+          <div class="uc-icon">📋</div>
+          <div class="uc-body">
+            <h3>Office & Business Use</h3>
+            <p>Quickly draft meeting notes, to-do lists, email templates, or short reports. The clipboard copy button makes it easy to paste polished text into any other app.</p>
+          </div>
+        </div>
+        <div class="use-case-card reveal">
+          <div class="uc-icon">🌐</div>
+          <div class="uc-body">
+            <h3>On Any Shared Computer</h3>
+            <p>Using a library PC, school lab, or a friend's laptop? This online notepad needs no install and no login, so you can write freely and leave without a trace.</p>
+          </div>
+        </div>
+        <div class="use-case-card reveal">
+          <div class="uc-icon">📝</div>
+          <div class="uc-body">
+            <h3>Journaling & Daily Writing</h3>
+            <p>Build a daily writing habit using the reading-time counter as motivation. The clean, paper-like design feels inviting for personal journaling and reflections.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TIPS SECTION ===== -->
+  <section id="tips" aria-label="Writing tips and shortcuts">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow">Pro Tips</span>
+        <h2 class="section-head">Get More from Your Notepad</h2>
+        <p class="section-sub">Keyboard shortcuts and power-user tricks to make writing faster in the online text editor.</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card reveal">
+          <span class="tip-tag">Keyboard</span>
+          <h3>Undo & Redo Freely</h3>
+          <p>Made a mistake? Use the standard browser undo history. The editor supports deep undo stacks so you can always step back to a previous state.</p>
+          <span class="tip-shortcut">Ctrl + Z / Ctrl + Y</span>
+        </div>
+        <div class="tip-card reveal">
+          <span class="tip-tag">Productivity</span>
+          <h3>Search Your Notes Instantly</h3>
+          <p>Open Find & Replace with the toolbar button or the shortcut. Useful for long documents where you need to update terminology throughout — replace all with one click.</p>
+          <span class="tip-shortcut">Ctrl + H</span>
+        </div>
+        <div class="tip-card reveal">
+          <span class="tip-tag">Writing</span>
+          <h3>Enter Distraction-Free Mode</h3>
+          <p>Click the expand icon in the toolbar to enter full-screen focus mode. Every UI element fades away, leaving only you and your words. Press Escape to return.</p>
+          <span class="tip-shortcut">Toolbar → ⤢</span>
+        </div>
+        <div class="tip-card reveal">
+          <span class="tip-tag">Formatting</span>
+          <h3>Fix Case with One Click</h3>
+          <p>Select any block of text and convert it between UPPER, lower, and Title Case instantly. Ideal for cleaning up pasted content from emails or PDFs.</p>
+          <span class="tip-shortcut">Toolbar → AA / aa / Aa</span>
+        </div>
+        <div class="tip-card reveal">
+          <span class="tip-tag">Export</span>
+          <h3>Name Your File Automatically</h3>
+          <p>The editor uses your first line of text as the filename when you download. Write a clear title at the top of your document for organised file downloads.</p>
+          <span class="tip-shortcut">First line = filename</span>
+        </div>
+        <div class="tip-card reveal">
+          <span class="tip-tag">Comfort</span>
+          <h3>Switch to Dark Mode at Night</h3>
+          <p>The dark mode toggle in the toolbar turns the editor background to a comfortable dark slate. It reduces eye strain during long evening writing sessions.</p>
+          <span class="tip-shortcut">Toolbar → ◑</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" aria-label="About Notepad Editor">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-content">
+            <p style="font-family:var(--font-mono);font-size:0.82rem;color:var(--ink-3);margin-bottom:12px">// notepadeditor.github.io</p>
+            <p style="font-family:var(--font-mono);font-size:0.88rem;color:var(--forest);line-height:1.9">
+              Features:<br>
+              ✓ Auto-Save (localStorage)<br>
+              ✓ Word Count &amp; Readability<br>
+              ✓ Find &amp; Replace<br>
+              ✓ Case Conversion<br>
+              ✓ TXT + MD Export<br>
+              ✓ Dark Mode<br>
+              ✓ Focus Mode<br>
+              ✓ Line Numbers<br>
+              ✓ No Login Required<br>
+              ✓ 100% Private
+            </p>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-eyebrow">About this tool</span>
+          <h2>A Better Kind of Online Notepad</h2>
+          <p>Most online text editors either do too little or ask too much. They require a sign-up, show intrusive ads, or lock features behind a paywall. Notepad Editor Online was built to be different.</p>
+          <p>This is a free, open, no-login notepad that runs entirely in your browser. There is no account to create, no data to upload, and no subscription to manage. Your text stays on your device, in your browser's local storage, completely private.</p>
+          <p>Whether you need a quick place to jot something down or a reliable daily writing tool, this notepad editor is designed to stay out of your way and help you write better, faster, and with less friction.</p>
+          <ul class="about-list">
+            <li>No account or sign-up ever required</li>
+            <li>All data stored only on your device</li>
+            <li>Works on all modern browsers and devices</li>
+            <li>Loads in under a second — no frameworks</li>
+            <li>Completely free, forever</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" aria-label="Frequently Asked Questions">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow reveal">FAQ</span>
+        <h2 class="section-head reveal">Frequently Asked Questions</h2>
+        <p class="section-sub reveal">Everything you need to know about the free online notepad editor.</p>
+      </div>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            Is the Notepad Editor completely free to use?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Yes! Notepad Editor Online is 100% free to use with no sign-up or login required. All features — including auto-save, download, find & replace, case conversion, and focus mode — are available to everyone at no cost, with no premium tier.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            Does the notepad save my text automatically?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Yes. The editor auto-saves your text to your browser's local storage every few seconds. If you accidentally close the tab or navigate away, your text will still be there when you return — on the same browser and device. The status bar confirms every save.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            Can I download my text as a file?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Absolutely. Click "Download .TXT" to save a plain text file, or "Download .MD" for a Markdown file. The filename is taken from the first line of your document so your files stay organized. Downloads work on all modern desktop and mobile browsers.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            Does the online text editor work on mobile devices?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Yes. Notepad Editor is fully responsive and tested on smartphones and tablets running iOS and Android. The toolbar and editor layout adapt to smaller screens to ensure a comfortable, accessible writing experience on any device.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            Is my text private? Is it stored on a server?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Your text is stored only in your own browser's local storage — it never leaves your device and is never sent to any server or third party. This makes the notepad editor one of the most private writing tools available online. Clearing your browser data will erase saved notes.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" aria-expanded="false">
+            How long can my document be?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">There is no character or word limit enforced by the editor. You can write as much as your browser's local storage capacity allows, which is typically 5–10 MB of text per domain — more than enough for any document, article, or writing project.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section id="cta-banner" aria-label="Call to action">
+    <div class="container">
+      <h2>Ready to start writing?</h2>
+      <p>Open the free online notepad editor now — no account, no download, no fuss.</p>
+      <a href="#editor" class="btn-amber">Open the Notepad Editor ↑</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script>
+  (function () {
+    'use strict';
+
+    /* ——— EDITOR STATE ——— */
+    const SAVE_KEY = 'notepadeditor-v1';
+    let saveTimer = null;
+
+    const editor     = document.getElementById('main-editor');
+    const lineNums   = document.getElementById('line-numbers');
+    const saveStatus = document.getElementById('save-status');
+
+    /* ——— LOAD SAVED TEXT ——— */
+    const saved = localStorage.getItem(SAVE_KEY);
+    if (saved) editor.value = saved;
+
+    /* ——— AUTO SAVE ——— */
+    function scheduleSave() {
+      if (saveTimer) clearTimeout(saveTimer);
+      saveStatus.textContent = '⏳ Saving…';
+      saveTimer = setTimeout(() => {
+        localStorage.setItem(SAVE_KEY, editor.value);
+        saveStatus.textContent = '💾 Auto-saved';
+      }, 1200);
+    }
+
+    /* ——— STATS ——— */
+    function updateStats() {
+      const text = editor.value;
+      const words = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
+      const chars = text.length;
+      const lines = text.split('\n').length;
+      const sentences = (text.match(/[.!?]+/g) || []).length;
+      const readSec = Math.ceil(words / 3.5);
+      const readStr = readSec < 60 ? readSec + ' sec' : Math.ceil(readSec / 60) + ' min';
+      document.getElementById('stat-words').textContent = words;
+      document.getElementById('stat-chars').textContent = chars;
+      document.getElementById('stat-lines').textContent = lines;
+      document.getElementById('stat-sentences').textContent = sentences;
+      document.getElementById('stat-read').textContent = readStr;
+    }
+
+    /* ——— LINE NUMBERS ——— */
+    function updateLineNumbers() {
+      const lineCount = editor.value.split('\n').length;
+      let html = '';
+      for (let i = 1; i <= lineCount; i++) html += i + '<br>';
+      lineNums.innerHTML = html;
+      lineNums.scrollTop = editor.scrollTop;
+    }
+
+    /* ——— SYNC LINE NUMBER SCROLL ——— */
+    editor.addEventListener('scroll', () => { lineNums.scrollTop = editor.scrollTop; });
+
+    /* ——— MAIN INPUT HANDLER ——— */
+    editor.addEventListener('input', () => {
+      updateStats();
+      updateLineNumbers();
+      scheduleSave();
+      updateFindHighlight();
+    });
+
+    /* ——— FONT SIZE ——— */
+    document.getElementById('font-size-select').addEventListener('change', function () {
+      editor.style.fontSize = this.value + 'px';
+    });
+
+    /* ——— LINE WRAP ——— */
+    document.getElementById('wrap-select').addEventListener('change', function () {
+      editor.style.whiteSpace = this.value === 'off' ? 'pre' : 'pre-wrap';
+      editor.wrap = this.value;
+    });
+
+    /* ——— CASE CONVERSION ——— */
+    function transformCase(type) {
+      const start = editor.selectionStart;
+      const end = editor.selectionEnd;
+      if (start === end) return;
+      const sel = editor.value.substring(start, end);
+      let transformed;
+      if (type === 'upper') transformed = sel.toUpperCase();
+      else if (type === 'lower') transformed = sel.toLowerCase();
+      else transformed = sel.replace(/\b\w/g, c => c.toUpperCase());
+      editor.value = editor.value.substring(0, start) + transformed + editor.value.substring(end);
+      editor.setSelectionRange(start, end);
+      editor.dispatchEvent(new Event('input'));
+    }
+    document.getElementById('btn-upper').addEventListener('click', () => transformCase('upper'));
+    document.getElementById('btn-lower').addEventListener('click', () => transformCase('lower'));
+    document.getElementById('btn-title').addEventListener('click', () => transformCase('title'));
+
+    /* ——— COPY ALL ——— */
+    document.getElementById('btn-copy').addEventListener('click', async () => {
+      if (!editor.value) return;
+      try {
+        await navigator.clipboard.writeText(editor.value);
+        showToast('Copied to clipboard!');
+      } catch {
+        editor.select();
+        document.execCommand('copy');
+        showToast('Copied!');
+      }
+    });
+
+    /* ——— PASTE PLAIN ——— */
+    document.getElementById('btn-paste-clean').addEventListener('click', async () => {
+      try {
+        const text = await navigator.clipboard.readText();
+        insertAtCursor(text.replace(/\r\n/g, '\n'));
+        showToast('Pasted as plain text');
+      } catch {
+        showToast('Paste from keyboard shortcut (Ctrl+V)');
+      }
+    });
+
+    function insertAtCursor(text) {
+      const start = editor.selectionStart;
+      const end = editor.selectionEnd;
+      editor.value = editor.value.substring(0, start) + text + editor.value.substring(end);
+      editor.selectionStart = editor.selectionEnd = start + text.length;
+      editor.dispatchEvent(new Event('input'));
+    }
+
+    /* ——— UNDO / REDO (via execCommand fallback) ——— */
+    document.getElementById('btn-undo').addEventListener('click', () => { editor.focus(); document.execCommand('undo'); });
+    document.getElementById('btn-redo').addEventListener('click', () => { editor.focus(); document.execCommand('redo'); });
+
+    /* ——— CLEAR ——— */
+    document.getElementById('btn-clear').addEventListener('click', () => {
+      if (!editor.value || !confirm('Clear all text? This cannot be undone.')) return;
+      editor.value = '';
+      editor.dispatchEvent(new Event('input'));
+      showToast('Editor cleared');
+    });
+
+    /* ——— PRINT ——— */
+    document.getElementById('btn-print').addEventListener('click', () => { window.print(); });
+
+    /* ——— DARK MODE ——— */
+    const darkBtn = document.getElementById('btn-dark');
+    let isDark = localStorage.getItem('npe-dark') === '1';
+    function applyDark() {
+      if (isDark) {
+        document.body.style.setProperty('--cream', '#1E2328');
+        document.body.style.setProperty('--paper', '#252B30');
+        document.body.style.setProperty('--white', '#2D3540');
+        document.body.style.setProperty('--rule', '#3A4250');
+        document.body.style.setProperty('--ink', '#E8E4DC');
+        document.body.style.setProperty('--ink-2', '#C8C4BC');
+        document.body.style.setProperty('--ink-3', '#8A8880');
+        darkBtn.classList.add('active');
+      } else {
+        document.body.style.removeProperty('--cream');
+        document.body.style.removeProperty('--paper');
+        document.body.style.removeProperty('--white');
+        document.body.style.removeProperty('--rule');
+        document.body.style.removeProperty('--ink');
+        document.body.style.removeProperty('--ink-2');
+        document.body.style.removeProperty('--ink-3');
+        darkBtn.classList.remove('active');
+      }
+    }
+    applyDark();
+    darkBtn.addEventListener('click', () => {
+      isDark = !isDark;
+      localStorage.setItem('npe-dark', isDark ? '1' : '0');
+      applyDark();
+    });
+
+    /* ——— FOCUS MODE ——— */
+    const focusBtn = document.getElementById('btn-focus');
+    let isFocus = false;
+    const editorWrapper = document.querySelector('.editor-wrapper');
+    focusBtn.addEventListener('click', toggleFocus);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && isFocus) toggleFocus(); });
+    function toggleFocus() {
+      isFocus = !isFocus;
+      if (isFocus) {
+        editorWrapper.style.cssText = 'position:fixed;inset:0;z-index:2000;border-radius:0;border:none;';
+        document.getElementById('main-editor').style.minHeight = 'calc(100vh - 100px)';
+        focusBtn.classList.add('active');
+        showToast('Focus mode — press Escape to exit');
+      } else {
+        editorWrapper.style.cssText = '';
+        document.getElementById('main-editor').style.minHeight = '';
+        focusBtn.classList.remove('active');
+      }
+    }
+
+    /* ——— FIND & REPLACE ——— */
+    const frPanel     = document.getElementById('find-replace-panel');
+    const findInput   = document.getElementById('find-input');
+    const replaceInput= document.getElementById('replace-input');
+    const frCount     = document.getElementById('fr-count');
+
+    document.getElementById('btn-find').addEventListener('click', () => {
+      frPanel.classList.toggle('visible');
+      if (frPanel.classList.contains('visible')) findInput.focus();
+    });
+    document.getElementById('btn-close-fr').addEventListener('click', () => {
+      frPanel.classList.remove('visible');
+      frCount.textContent = '';
+    });
+    document.addEventListener('keydown', e => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'h') { e.preventDefault(); frPanel.classList.toggle('visible'); if (frPanel.classList.contains('visible')) findInput.focus(); }
+    });
+
+    function updateFindHighlight() {
+      const q = findInput.value;
+      if (!q) { frCount.textContent = ''; return; }
+      const matches = editor.value.split(q).length - 1;
+      frCount.textContent = matches + ' match' + (matches !== 1 ? 'es' : '');
+    }
+    findInput.addEventListener('input', updateFindHighlight);
+
+    document.getElementById('btn-replace-one').addEventListener('click', () => {
+      const q = findInput.value; const r = replaceInput.value;
+      if (!q || !editor.value.includes(q)) return;
+      editor.value = editor.value.replace(q, r);
+      editor.dispatchEvent(new Event('input'));
+      showToast('Replaced 1 occurrence');
+    });
+    document.getElementById('btn-replace-all').addEventListener('click', () => {
+      const q = findInput.value; const r = replaceInput.value;
+      if (!q) return;
+      const count = editor.value.split(q).length - 1;
+      if (count === 0) { showToast('No matches found'); return; }
+      editor.value = editor.value.split(q).join(r);
+      editor.dispatchEvent(new Event('input'));
+      showToast(`Replaced ${count} occurrence${count !== 1 ? 's' : ''}`);
+    });
+
+    /* ——— DOWNLOAD ——— */
+    function getFilename(ext) {
+      const firstLine = editor.value.split('\n')[0].trim().substring(0, 40).replace(/[^a-z0-9\s-]/gi, '').replace(/\s+/g, '-').toLowerCase();
+      return (firstLine || 'my-notes') + '.' + ext;
+    }
+    document.getElementById('btn-download-txt').addEventListener('click', () => {
+      downloadFile(editor.value, getFilename('txt'), 'text/plain');
+    });
+    document.getElementById('btn-download-md').addEventListener('click', () => {
+      downloadFile(editor.value, getFilename('md'), 'text/markdown');
+    });
+    function downloadFile(content, filename, mime) {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([content], { type: mime }));
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+      showToast('Downloaded: ' + filename);
+    }
+
+    /* ——— NEW DOCUMENT ——— */
+    document.getElementById('btn-new-doc').addEventListener('click', () => {
+      if (!editor.value || confirm('Start a new document? Current text will be saved in your browser.')) {
+        localStorage.setItem(SAVE_KEY, editor.value);
+        editor.value = '';
+        editor.dispatchEvent(new Event('input'));
+        editor.focus();
+        showToast('New document started');
+      }
+    });
+
+    /* ——— TOAST ——— */
+    let toastTimer;
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg; t.classList.add('show');
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
+    }
+
+    /* ——— FAQ ACCORDION ——— */
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-q').setAttribute('aria-expanded','false'); });
+        if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+      });
+    });
+
+    /* ——— SCROLL REVEAL ——— */
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObserver.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    /* ——— INITIAL STATE ——— */
+    updateStats();
+    updateLineNumbers();
+
+  })();
+  </script>
+</body>
+</html>
