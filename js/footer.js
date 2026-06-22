@@ -23,28 +23,29 @@
             <div class="footer-links">
               <h4>Editor Tools</h4>
               <ul>
-                <li><a href="#editor">Online Notepad</a></li>
-                <li><a href="#editor">Text Editor Online</a></li>
-                <li><a href="#editor">Notepad Online Free</a></li>
-                <li><a href="#editor">Simple Text Editor</a></li>
+                <li><a href="/#editor">Online Notepad</a></li>
+                <li><a href="/#editor">Text Editor Online</a></li>
+                <li><a href="/#editor">Notepad Online Free</a></li>
+                <li><a href="/#editor">Simple Text Editor</a></li>
               </ul>
             </div>
             <div class="footer-links">
               <h4>Features</h4>
               <ul>
-                <li><a href="#features">Word Count Tool</a></li>
-                <li><a href="#features">Find & Replace</a></li>
-                <li><a href="#features">Download as TXT</a></li>
-                <li><a href="#features">Auto Save</a></li>
+                <li><a href="/#features">Word Count Tool</a></li>
+                <li><a href="/#features">Find & Replace</a></li>
+                <li><a href="/#features">Download as TXT</a></li>
+                <li><a href="/#features">Auto Save</a></li>
               </ul>
             </div>
             <div class="footer-links">
-              <h4>Resources</h4>
+              <h4>Pages</h4>
               <ul>
-                <li><a href="#how-to-use">How to Use</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#tips">Writing Tips</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms of Use</a></li>
+                <li><a href="/cookies">Cookies Policy</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -53,8 +54,7 @@
             <div class="related-tools">
               <span>Also try:</span>
               <a href="https://notetxt.github.io" target="_blank" rel="noopener">NoteTxt</a>
-              <a href="https://memonotepad.github.io" target="_blank" rel="noopener">Memo Notepad</a>
-              <a href="https://randomwheel.github.io" target="_blank" rel="noopener">Random Wheel</a>
+              <a href="https://memonotepad.github.io" target="_blank" rel="noopener">Memo Notepad</a>              
             </div>
           </div>
         </div>
