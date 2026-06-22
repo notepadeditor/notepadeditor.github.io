@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies Policy — Notepad Editor Online</title>
+  <meta name="description" content="Cookies and local storage policies for Notepad Editor Online. Find out how local browser caches keep your data safe.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://notepadeditor.github.io/cookies.html">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .legal-section { padding: calc(var(--header-h) + 40px) 0 80px; background: var(--cream); }
+    .legal-card { background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 40px; box-shadow: var(--shadow); margin-top: 24px; }
+    .legal-card h2 { font-size: 1.6rem; color: var(--forest); margin: 32px 0 12px; }
+    .legal-card h2:first-of-type { margin-top: 0; }
+    .legal-card p { margin-bottom: 16px; color: var(--ink-2); }
+    .legal-card ul { margin-bottom: 20px; padding-left: 20px; color: var(--ink-2); }
+    .legal-card li { margin-bottom: 8px; }
+    .last-updated { font-family: var(--font-mono); font-size: 0.8rem; color: var(--amber); margin-bottom: 24px; display: block; }
+  </style>
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main class="legal-section">
+    <div class="container">
+      <span class="section-eyebrow">Legal Docs</span>
+      <h1>Cookies & Storage Policy</h1>
+      <span class="last-updated">Last Updated: June 22, 2026</span>
+      
+      <div class="legal-card">
+        <p>This policy details how Notepad Editor Online (<strong>notepadeditor.github.io</strong>) uses tracking components, programmatic session items, and local browser memory to ensure a stable writing experience.</p>
+
+        <h2>1. Does This Site Use Cookies?</h2>
+        <p>No, this application does not deploy typical HTTP tracking cookies to record your identity across third-party networks. Instead, we use your browser's internal <strong>Web Storage API (Local Storage)</strong> to handle configuration workflows and manage draft recovery states seamlessly.</p>
+
+        <h2>2. How We Use Local Storage</h2>
+        <p>Local Storage allows us to keep key editor settings persistent directly on your hardware so you don't lose progress between sessions. We use this mechanism for the following features:</p>
+        <ul>
+          <li><strong>Document Draft Protection:</strong> Your raw note text is auto-saved locally every few seconds so that if you refresh the browser or close a tab, your work is restored instantly when you return.</li>
+          <li><strong>Editor Personalization:</strong> Saves custom application flags such as your chosen font size step, font formatting layouts, line-wrap switches, and Dark Mode settings.</li>
+        </ul>
+
+        <h2>3. Third-Party Web Storage Usage</h2>
+        <p>We do not share local storage properties with data monitoring brokers or digital advertising hubs. If infrastructure components or static web font CDNs require tracking states to route data smoothly, those layers operate completely outside our system cache boundaries.</p>
+
+        <h2>4. How to Manage and Delete Your Data</h2>
+        <p>Because local storage configurations reside completely inside your own user terminal, you can erase this text memory loop whenever you choose. To reset your editor, you can either:</p>
+        <ul>
+          <li>Click the <strong>Trash/Clear Editor (🗑)</strong> button inside our interface to wipe current working buffers instantly.</li>
+          <li>Clear your browser's application cache, site data, or localized offline structural cookies history using your browser's built-in privacy settings panel.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+<!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="/js/header.js"></script>
+  <script src="/js/footer.js"></script>
+</body>
+</html>
