@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — Notepad Editor Online</title>
+  <meta name="description" content="Learn more about Notepad Editor Online, our mission for private, client-side text editing, and our founder Sarah.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://notepadeditor.github.io/about">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .legal-section { padding: calc(var(--header-h) + 40px) 0 80px; background: var(--cream); min-height: 100vh; }
+    .legal-card { background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 40px; box-shadow: var(--shadow); margin-top: 24px; }
+    .legal-card h2 { font-size: 1.8rem; color: var(--forest); margin: 32px 0 16px; font-family: var(--font-serif); }
+    .legal-card h2:first-of-type { margin-top: 0; }
+    .legal-card p { margin-bottom: 18px; color: var(--ink-2); font-size: 1.05rem; line-height: 1.65; }
+    .founder-profile { display: flex; align-items: center; gap: 24px; background: var(--paper); padding: 24px; border-radius: var(--radius); border-left: 4px solid var(--amber); margin: 32px 0; }
+    .founder-avatar { width: 70px; height: 70px; background: var(--forest); color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 1.8rem; font-weight: bold; flex-shrink: 0; }
+    .founder-details h3 { font-family: var(--font-serif); color: var(--forest); font-size: 1.25rem; }
+    .founder-details p { margin: 4px 0 0; font-family: var(--font-mono); font-size: 0.85rem; color: var(--amber); }
+    .values-list { margin: 24px 0; padding-left: 20px; color: var(--ink-2); }
+    .values-list li { margin-bottom: 12px; line-height: 1.5; }
+    .values-list strong { color: var(--forest); }
+  </style>
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main class="legal-section">
+    <div class="container">
+      <span class="section-eyebrow">Our Story</span>
+      <h1>About Notepad Editor Online</h1>
+      
+      <div class="legal-card">
+        <p>Welcome to <strong>Notepad Editor Online</strong>, a minimalist writing space created to strip away the digital clutter and bring focus back to your words. We believe that tools for draft writing, code outlining, and note-taking shouldn’t require complex setups, tracking loops, or heavy operational boundaries.</p>
+
+        <h2>Our Core Mission</h2>
+        <p>Our objective is to deliver a beautifully optimized, fast, and completely private terminal for your everyday text-processing workflows. By processing your scripts and text structures directly within your web browser environment, we eliminate server dependencies—ensuring your files never leave your machine without your explicit request.</p>
+
+        <div class="founder-profile">
+          <div class="founder-avatar">S</div>
+          <div class="founder-details">
+            <h3>Sarah</h3>
+            <p>CEO &amp; Founder, Notepad Editor Online</p>
+          </div>
+        </div>
+
+        <p>As the founder and CEO, I designed this platform out of a personal need for an accessible, offline-capable notebook that respects user privacy. Whether you are drafting raw blog copies, stripping hidden styling strings out of web assets, or organizing a creative manuscript, our clean canvas is engineered to keep your writing seamless and safe.</p>
+
+        <h2>Why Write With Us?</h2>
+        <ul class="values-list">
+          <li><strong>Zero Latency:</strong> Lightweight scripts make your typing smooth, responsive, and distraction-free.</li>
+          <li><strong>Absolute Data Isolation:</strong> Your text data saves via Local Storage arrays directly on your desktop or mobile browser hardware.</li>
+          <li><strong>No Entry Barriers:</strong> No profile creation sheets, no sign-ups, and no login parameters required. Open the canvas and type instantly.</li>
+        </ul>
+
+        <p>Thank you for letting us be part of your documentation journey. We are constantly adjusting font spacing, rendering layout parameters, and introducing utility shortcuts to perfect your online writing desk experience.</p>
+      </div>
+    </div>
+  </main>
+<!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="/js/header.js"></script>
+  <script src="/js/footer.js"></script>
+</body>
+</html>
