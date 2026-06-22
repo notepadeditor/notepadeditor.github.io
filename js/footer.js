@@ -52,8 +52,7 @@
           <div class="footer-bottom">
             <p>&copy; ${year} NotepadEditor.github.io — Free Online Notepad &amp; Text Editor. All rights reserved.</p>
             <div class="related-tools">
-              <span>Also try:</span>
-              <a href="https://notetxt.github.io" target="_blank" rel="noopener">NoteTxt</a>
+              <span>Also try:</span>              
               <a href="https://memonotepad.github.io" target="_blank" rel="noopener">Memo Notepad</a>              
             </div>
           </div>
