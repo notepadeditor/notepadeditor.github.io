@@ -17,7 +17,7 @@
                 <line x1="19" y1="21" x2="23" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
               </svg>
             </span>
-            <span class="logo-text">Notepad<em>Editor</em></span>
+            <span class="logo-text">Notepad<em> Online</em></span>
           </a>
           <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
             <ul>
