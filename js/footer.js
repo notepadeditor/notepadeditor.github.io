@@ -12,7 +12,7 @@
         <div class="footer-body">
           <div class="footer-inner">
             <div class="footer-brand">
-              <a href="/" class="footer-logo">Notepad<em>Editor</em></a>
+              <a href="/" class="footer-logo">Notepad<em>Online</em></a>
               <p>A free, fast, and feature-rich online text editor. Write, format, and export your notes from any device — no login required.</p>
               <div class="footer-badges">
                 <span class="badge">✓ Free Forever</span>
